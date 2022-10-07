@@ -11,4 +11,4 @@
 
 **GitHub Pages**
 
-[Ссылка GitHub Pages](https://matushchenko.github.io/mesto-project/) 
+[Ссылка GitHub Pages](https://matushchenko.github.io/mesto-project/index.html ) 
