@@ -1,0 +1,22 @@
+.element__like {
+  margin: 0;
+  border: 0;
+  background-color: #FFFFFF;
+  fill: transparent;
+  background-image: url('../../../images/Like.svg');
+  background-position: center;
+  width: 100%;
+  max-width: 22px;
+  height: 100vh;
+  max-height: 19px;
+  object-fit: cover;
+}
+
+.element__like:hover {
+  opacity: .6;
+  transition: opacity 0.1s ease-out;
+}
+
+.element__like[disabled] {
+  background-image: url('../../../images/Like-2.svg');
+}

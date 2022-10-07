@@ -1,0 +1,14 @@
+.profile__group-name {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+  gap: 18px;
+}
+
+@media all and (max-width: 970px) {
+  .profile__group-name {
+    justify-content: center;
+    gap: 10px;
+  }
+}

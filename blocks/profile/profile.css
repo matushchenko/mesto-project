@@ -1,0 +1,27 @@
+.profile {
+  margin: 0;
+  padding-bottom: 50px ;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  box-sizing: border-box;
+  max-height: 170px;
+}
+
+@media all and (max-width: 970px) {
+  .profile {
+    flex-direction: column;
+    padding-bottom: 36px ;
+    max-height: 322px;
+    gap: 26px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .profile {
+    flex-direction: column;
+    padding-bottom: 36px ;
+    max-height: 322px;
+    gap: 26px;
+  }
+}

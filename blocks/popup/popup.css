@@ -1,0 +1,22 @@
+.popup {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 526px;
+  max-height: 378px;
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 767px) {
+  .popup {
+    max-width: 282px;
+    max-height: 358px;
+    align-items: stretch;
+  }
+}
