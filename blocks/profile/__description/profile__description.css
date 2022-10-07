@@ -3,15 +3,15 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  max-height: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media all and (max-width: 970px) {
   .profile__description {
     text-align: center;
-    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    max-height: 14px;
   }
 }

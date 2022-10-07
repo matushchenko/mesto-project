@@ -6,85 +6,86 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Document</title>
+  <title>Место</title>
 </head>
 
 <body class="page">
-  <form class="form">
-    <div class="popup popup_opened">
-      <button class="popup__button-exit">
-        <img class="popup__button-img" src="./images/button_exit.svg" alt="Exit">
-      </button>
-      <fieldset class="popup__container">
-        <h2 class="popup__header">Редактировать профиль</h2>
+  <div class="popup">
+    <div class="popup__button-container">
+    <button class="popup__button-exit" type="button">
+      <img class="popup__button-img" src="./images/button_exit.svg" alt="Кнопка закрыть.">
+    </button>
+    </div>
+    <div class="popup__container">
+      <h2 class="popup__header">Редактировать профиль</h2>
+      <form class="popup__form" name="profile">
         <div class="popup__inputs">
           <input class="popup__input" type="text" name="firstname" placeholder="Жак-Ив Кусто">
           <input class="popup__input" type="text" name="description" placeholder="Исследователь океана">
         </div>
-        <button class="popup__button-save">Сохранить</button>
-      </fieldset>
+        <button class="popup__button-save" type="submit">Сохранить</button>
+      </form>
     </div>
-  </form>
+  </div>
   <header class="header">
-    <img class="header__logo" src="./images/logo.svg" alt="Логотип">
-    <p class="header__line"></p>
+    <img class="header__logo" src="./images/logo.svg" alt="Логотип шапки.">
   </header>
   <main class="content">
     <section class="profile">
-      <img class="profile__avatar" src="./images/avatar.jpg" alt="avatar">
+      <img class="profile__avatar" src="./images/avatar.jpg" alt="Фото профиля.">
       <div class="profile__info">
         <div class="profile__group-name">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
-          <button class="profile__button profile__button_type_edit"><img src="./images/Edit_Button.svg"
-              alt="button_edit"></button>
+          <button class="profile__button profile__button_type_edit" type="button">
+            <img class="profile__button-edit" src="./images/Edit_Button.svg" alt="Кнопка редактировать."></button>
         </div>
         <p class="profile__description">Исследователь океана</p>
       </div>
-      <button class="profile__button profile__button_type_add"><img src="./images/Add_Button.svg"
-          alt="button_add"></button>
+      <button class="profile__button profile__button_type_add" type="button">
+        <img class="profile__button-add" src="./images/Add_Button.svg" alt="Кнопка добавить."></button>
     </section>
     <section class="elements" aria-label="elements">
       <article class="element">
-        <img class="element__img" src="./images/karachaevsk.jpg" alt="Карачаевск">
+        <img class="element__img" src="./images/karachaevsk.jpg" alt="Карачаевск.">
         <div class="element__description">
           <h2 class="element__title">Карачаевск</h2>
-          <button class="element__like" disabled></button>
+          <button class="element__like" type="button" disabled></button>
         </div>
       </article>
       <article class="element">
-        <img class="element__img" src="./images/elbrus.jpg" alt="Эльбрус">
+        <img class="element__img" src="./images/elbrus.jpg" alt="Эльбрус.">
         <div class="element__description">
           <h2 class="element__title">Эльбрус</h2>
-          <button class="element__like" disabled>
+          <button class="element__like" type="button" disabled>
           </button>
         </div>
       </article>
       <article class="element">
-        <img class="element__img" src="./images/dombai.jpg" alt="Домбай">
+        <img class="element__img" src="./images/dombai.jpg" alt="Домбай.">
         <div class="element__description">
           <h2 class="element__title">Домбай</h2>
-          <button class="element__like" disabled></button>
+          <button class="element__like" type="button" disabled></button>
         </div>
       </article>
       <article class="element">
-        <img class="element__img" src="./images/elbrus.jpg" alt="Эльбрус">
+        <img class="element__img" src="./images/elbrus.jpg" alt="Эльбрус.">
         <div class="element__description">
           <h2 class="element__title">Эльбрус</h2>
-          <button class="element__like"></button>
+          <button class="element__like" type="button"></button>
         </div>
       </article>
       <article class="element">
-        <img class="element__img" src="./images/dombai.jpg" alt="Домбай">
+        <img class="element__img" src="./images/dombai.jpg" alt="Домбай.">
         <div class="element__description">
           <h2 class="element__title">Домбай</h2>
-          <button class="element__like"></button>
+          <button class="element__like" type="button"></button>
         </div>
       </article>
       <article class="element">
-        <img class="element__img" src="./images/karachaevsk.jpg" alt="Карачаевск">
+        <img class="element__img" src="./images/karachaevsk.jpg" alt="Карачаевск.">
         <div class="element__description">
           <h2 class="element__title">Карачаево-Черкесия</h2>
-          <button class="element__like"></button>
+          <button class="element__like" type="button"></button>
         </div>
       </article>
     </section>

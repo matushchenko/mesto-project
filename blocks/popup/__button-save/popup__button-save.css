@@ -24,6 +24,8 @@
 @media all and (max-width: 767px) {
   .popup__button-save {
     max-width: 282px;
-    max-height: 358px;
+    max-height: 46px;
+    font-size: 14px;
+    line-height: 17px;
   }
 }

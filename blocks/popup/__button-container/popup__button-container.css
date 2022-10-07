@@ -1,0 +1,14 @@
+.popup__button-container {
+  margin: 0;
+  width: 100%;
+  max-width: 526px;;
+  display: flex;
+  justify-content: end;
+}
+
+@media all and (max-width: 768px) {
+  .popup__button-container {
+    max-width: 282px;
+  }
+}
+

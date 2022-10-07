@@ -2,13 +2,13 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
   width: 100%;
   max-width: 336px;
 }
 
 @media all and (max-width: 970px) {
   .profile__info {
-    gap: 14px;
+    gap: 8px;
   }
 }

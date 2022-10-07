@@ -4,7 +4,6 @@
   width: 100%;
   border-radius: 10px;
   max-width: 430px;
-  max-height: 330px;
   padding: 34px 36px 37px 36px ;
   border: 0;
   margin: 0;
@@ -16,7 +15,6 @@
 @media all and (max-width: 767px) {
   .popup__container {
     max-width: 282px;
-    max-height: 322px;
     padding: 25px 22px;
   }
 }

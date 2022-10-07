@@ -16,12 +16,14 @@
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  position: absolute;
 }
 .popup__input::-moz-placeholder {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  position: absolute;
 }
 
 .popup__input::-ms-input-placeholder {
@@ -29,6 +31,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  position: absolute;
 }
 
 .popup__input::placeholder {
@@ -36,6 +39,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  position: absolute;
 } 
 
 @media all and (max-width: 767px) {
