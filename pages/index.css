@@ -6,7 +6,6 @@
 /* header */
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
-@import url('../blocks/header/__line/header__line.css');
 
 /* content */
 @import url('../blocks/content/content.css');
@@ -43,8 +42,6 @@
 @import url('../blocks/popup/_opened/popup_opened.css');
 @import url('../blocks/popup/__button-exit/popup__button-exit.css');
 @import url('../blocks/popup/__header/popup__header.css');
-@import url('../blocks/popup/__inputs/popup__inputs.css');
 @import url('../blocks/popup/__input/popup__input.css');
 @import url('../blocks/popup/__button-save/popup__button-save.css');
 @import url('../blocks/popup/__button-img/popup__button-img.css');
-@import url('../blocks/popup/__button-container/popup__button-container.css');

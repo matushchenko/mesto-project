@@ -10,19 +10,15 @@
 </head>
 
 <body class="page">
-  <div class="popup">
-    <div class="popup__button-container">
+  <div class="popup popup_opened">
     <button class="popup__button-exit" type="button">
       <img class="popup__button-img" src="./images/button_exit.svg" alt="Кнопка закрыть.">
     </button>
-    </div>
     <div class="popup__container">
       <h2 class="popup__header">Редактировать профиль</h2>
       <form class="popup__form" name="profile">
-        <div class="popup__inputs">
-          <input class="popup__input" type="text" name="firstname" placeholder="Жак-Ив Кусто">
-          <input class="popup__input" type="text" name="description" placeholder="Исследователь океана">
-        </div>
+        <input class="popup__input" type="text" name="firstname" placeholder="Жак-Ив Кусто">
+        <input class="popup__input" type="text" name="description" placeholder="Исследователь океана">
         <button class="popup__button-save" type="submit">Сохранить</button>
       </form>
     </div>

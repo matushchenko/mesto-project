@@ -11,6 +11,7 @@
   max-height: 19px;
   object-fit: cover;
   padding: 0;
+  cursor: pointer;
 }
 
 .element__like:hover {
