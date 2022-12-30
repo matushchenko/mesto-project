@@ -3,7 +3,6 @@
   border: 0;
   background-color: #FFFFFF;
   fill: transparent;
-  background-image: url('../../../images/Like.svg');
   background-position: center;
   width: 100%;
   max-width: 22px;
@@ -19,6 +18,6 @@
   transition: opacity 0.1s ease-out;
 }
 
-.element__like[disabled] {
-  background-image: url('../../../images/Like-2.svg');
-}
+/*.element__like[disabled] {
+  background-image: url('../../../images/Like.svg');
+}*/

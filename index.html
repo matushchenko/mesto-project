@@ -10,16 +10,40 @@
 </head>
 
 <body class="page">
-  <div class="popup popup_opened">
+  <div class="popup popup_edit">
     <button class="popup__button-exit" type="button">
       <img class="popup__button-img" src="./images/button_exit.svg" alt="Кнопка закрыть.">
     </button>
     <div class="popup__container">
       <h2 class="popup__header">Редактировать профиль</h2>
       <form class="popup__form" name="profile">
-        <input class="popup__input" type="text" name="firstname" placeholder="Жак-Ив Кусто">
-        <input class="popup__input" type="text" name="description" placeholder="Исследователь океана">
+        <input class="popup__input" type="text" name="firstname">
+        <input class="popup__input" type="text" name="description">
         <button class="popup__button-save" type="submit">Сохранить</button>
+      </form>
+    </div>
+  </div>
+  <div class="popup popup_add">
+    <button class="popup__button-exit" type="button">
+      <img class="popup__button-img" src="./images/button_exit.svg" alt="Кнопка закрыть.">
+    </button>
+    <div class="popup__container">
+      <h2 class="popup__header">Новое место</h2>
+      <form class="popup__form" name="profile">
+        <input class="popup__input" type="text" name="name_img" placeholder="Название">
+        <input class="popup__input" type="text" name="src_img" placeholder="Ссылка на картинку">
+        <button class="popup__button-save" type="submit">Сохранить</button>
+      </form>
+    </div>
+  </div>
+  <div class="popup popup_img">
+    <div class="popup__block">
+      <button class="popup__button-exit2" type="button">
+        <img class="popup__button-img" src="./images/button_exit.svg" alt="Кнопка закрыть.">
+      </button>
+      <form class="popup__form" name="image">
+        <img class="popup__img" src="" alt="">
+        <p class="popup__title"></p>
       </form>
     </div>
   </div>
@@ -31,64 +55,34 @@
       <img class="profile__avatar" src="./images/avatar.jpg" alt="Фото профиля.">
       <div class="profile__info">
         <div class="profile__group-name">
-          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <h1 class="profile__name"></h1>
           <button class="profile__button profile__button_type_edit" type="button">
             <img class="profile__button-edit" src="./images/Edit_Button.svg" alt="Кнопка редактировать."></button>
         </div>
-        <p class="profile__description">Исследователь океана</p>
+        <p class="profile__description"></p>
       </div>
       <button class="profile__button profile__button_type_add" type="button">
         <img class="profile__button-add" src="./images/Add_Button.svg" alt="Кнопка добавить."></button>
     </section>
     <section class="elements" aria-label="elements">
-      <article class="element">
-        <img class="element__img" src="./images/karachaevsk.jpg" alt="Карачаевск.">
-        <div class="element__description">
-          <h2 class="element__title">Карачаевск</h2>
-          <button class="element__like" type="button" disabled></button>
-        </div>
-      </article>
-      <article class="element">
-        <img class="element__img" src="./images/elbrus.jpg" alt="Эльбрус.">
-        <div class="element__description">
-          <h2 class="element__title">Эльбрус</h2>
-          <button class="element__like" type="button" disabled>
-          </button>
-        </div>
-      </article>
-      <article class="element">
-        <img class="element__img" src="./images/dombai.jpg" alt="Домбай.">
-        <div class="element__description">
-          <h2 class="element__title">Домбай</h2>
-          <button class="element__like" type="button" disabled></button>
-        </div>
-      </article>
-      <article class="element">
-        <img class="element__img" src="./images/elbrus.jpg" alt="Эльбрус.">
-        <div class="element__description">
-          <h2 class="element__title">Эльбрус</h2>
-          <button class="element__like" type="button"></button>
-        </div>
-      </article>
-      <article class="element">
-        <img class="element__img" src="./images/dombai.jpg" alt="Домбай.">
-        <div class="element__description">
-          <h2 class="element__title">Домбай</h2>
-          <button class="element__like" type="button"></button>
-        </div>
-      </article>
-      <article class="element">
-        <img class="element__img" src="./images/karachaevsk.jpg" alt="Карачаевск.">
-        <div class="element__description">
-          <h2 class="element__title">Карачаево-Черкесия</h2>
-          <button class="element__like" type="button"></button>
-        </div>
-      </article>
+      <template id = "element_list">
+        <article class="element">
+          <button class="element__trash" type="button"></button>
+          <img class="element__img" src="" alt="">
+          <div class="element__description">
+            <h2 class="element__title"></h2>
+            <button class="element__like" type="button" >
+              <img class="element__like-white" src="./images/Like-2.svg" alt="Кнопка лайк.">
+            </button>
+          </div>
+        </article>
+      </template>
     </section>
   </main>
   <footer class="footer">
     <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
   </footer>
+  <script src="./script.js"></script>
 </body>
 
 </html>
