@@ -96,6 +96,7 @@ function initialCard() {
     })
     initialCardElements.unshift(element);
     list_elements.prepend(element); 
+
   }
 }
 
@@ -134,6 +135,9 @@ function formSubmitHandlerAdd (evt) {
   initialCards.unshift({name: popup_input_name_img.value, link: popup_input_src_img.value});
   initialCard();
   popup_add.classList.toggle('popup_opened');
+  popup_input_name_img.value = '';
+  popup_input_src_img.value = '';
+
 }
 popup_form_add.addEventListener('submit', formSubmitHandlerAdd);
 
